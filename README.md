@@ -1,4 +1,4 @@
-# Foundation Compass Template
+# Schaumburg High School Custom Apps Template using Foundation Compass Template
 
 The easiest way to get started with Foundation + Compass.
 
