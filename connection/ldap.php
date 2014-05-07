@@ -10,8 +10,8 @@ session_start();
   array $ldapservers[];
   $ldapservers[0] = "10.6.1.11";
   $ldapservers[1] = "SHSVHADC3.d211.org";
-  $ldapservers[3] = "SHSVHADC1.d211.org";
-  $ldapservers[4] = "rodc.d211.org";
+  $ldapservers[2] = "SHSVHADC1.d211.org";
+  $ldapservers[3] = "209.7.119.15";
 
 
  $error ="";
@@ -32,6 +32,7 @@ session_start();
    $ds = ldap_connect($ldapservers[0]);  
 	if(!$ds){  $ds = ldap_connect($ldapservers[1]); 
 	}elseif(!$ds){ $ds = ldap_connect($ldapservers[2]); 
+	}elseif(!$ds){ $ds = ldap_connect($ldapservers[3],636); 
 	}elseif(!$ds){	echo("Error Connecting:'".ldap_error($ds)."'</br>");}
 
 	

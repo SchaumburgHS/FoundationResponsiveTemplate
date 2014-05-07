@@ -14,7 +14,7 @@
  <nav class="top-bar" data-topbar>
  <ul class="title-area">
     <li class="name">
-      <h1><a href="http://shs.d211.org" title="Home Page"><img src="media/SHS logo.png" width="49" height="45">Schaumburg High School</a></h1>
+      <h1><a href="http://shs.d211.org" title="Home Page"><img src="media/SHS logo.png" width="49" height="45">Schaumburg H.S.</a></h1>
         </li>
     <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
   </ul> 
