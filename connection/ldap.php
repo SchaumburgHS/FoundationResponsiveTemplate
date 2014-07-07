@@ -8,10 +8,10 @@ session_start();
   $school = array("SHS","Schaumburg High School");
   $domain = "@d211.org";
   array $ldapservers[];
-  $ldapservers[0] = "10.6.1.11";
+  $ldapservers[0] = "10.6.1.11";//local servers
   $ldapservers[1] = "SHSVHADC3.d211.org";
   $ldapservers[2] = "SHSVHADC1.d211.org";
-  $ldapservers[3] = "209.7.119.15";
+  $ldapservers[3] = "209.7.119.15";// RODC server
 
 
  $error ="";
